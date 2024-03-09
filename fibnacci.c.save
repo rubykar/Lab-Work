@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<unistd.h>
+
+
+
+long long factorial(int n){
+	if( n == 0 || n == 1){
+		return 1;
+	}
+	else{
+		retrun n * factorial(n-1);
+	}
+}
+
+
+int main(int argc, char *argv[]){
+	if (argc != 2){
+		fprintf(sterr,"Usage : %s <number>\n",argv[0]);
+		exit(EXIT_FAILURE);
+	}
+
+	int n = atoi(argv[1]);
+
+	if(n < 0)
+
+
+}

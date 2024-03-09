@@ -1,0 +1,12 @@
+
+PID	PNAME	BT	AT	ST	WT	TAT	CT
+1	p2	2	0	0	0	2	2	0
+2	p2	3	2	2	4	7	5	0
+3	p3	5	2	5	7	12	10	0
+4	p4	4	3	10	13	17	14	0
+5	p5	6	4	14	18	24	20	0
+
+
+Average waiting Time is  : 8.400000
+
+Average turnaround Time is  : 12.400000
